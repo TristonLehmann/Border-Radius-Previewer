@@ -11,5 +11,5 @@ Border Radius Previewer is an interactive tool for experimenting with the CSS bo
 -   [x] User can copy the resulting CSS to the clipboard
 
 ## Useful Links
-[Border Radius](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius)
-[Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+-   [Border Radius](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius)
+-   [Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)

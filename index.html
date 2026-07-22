@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Border Radius Previewer</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/reset.css"/>
+        <link rel="stylesheet" href="./styles/styles.css"/>
+        <script src="./scripts/index.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <section class="intro">
+                <h1>Border Radius Previewer</h1>
+                <p>Preview how the border-radius property works in real-time by manipulating its values and seeing how it affects the shape below.</p>
+            </section>
+            <section class="preview">
+                <h2>Preview</h2>
+                <div class="outline">
+                    <div id="shape">
+                        <p>Manipulate Me</p>
+                    </div>
+                </div>
+            </section>
+            <section class="values">
+                <form>
+                    <fieldset>
+                        <legend>Border Radius Values</legend>
+                        <div class="value">
+                            <label for="top-left">Top Left:</label>
+                            <input id="top-left" type="range" min="0" max="100" step="1" value="0"/>
+                            <output id="top-left-output" for="top-left">0%</output>
+                        </div>
+                        <div class="value">
+                            <label for="top-right">Top Right:</label>
+                            <input id="top-right" type="range" min="0" max="100" step="1" value="0"/>
+                            <output id="top-right-output" for="top-right">0%</output>
+                        </div>
+                        <div class="value">
+                            <label for="bottom-right">Bottom Right:</label>
+                            <input id="bottom-right" type="range" min="0" max="100" step="1" value="0"/>
+                            <output id="bottom-right-output" for="bottom-right">0%</output>
+                        </div>
+                        <div class="value">
+                            <label for="bottom-left">Bottom Left:</label>
+                            <input id="bottom-left" type="range" min="0" max="100" step="1" value="0"/>
+                            <output id="bottom-left-output" for="bottom-left">0%</output>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            <section class="code">
+                <h2>Generated CSS</h2>
+                <div class="copy-code">
+                    <code>
+                        <output id="code-output"></output>
+                    </code>
+                    <button id="copy" type="button">Copy Code</button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
